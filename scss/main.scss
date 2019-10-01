@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import 'hero';
+@import 'header';
+@import 'media';
+@import 'animations';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 2rem auto;
+
+  p {
+    margin: 1rem 0;
+  }
+}
